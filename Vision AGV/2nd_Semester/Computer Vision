@@ -1,0 +1,34 @@
+https://www.instructables.com/Object-Finding-Personal-Assistant-Robot-Ft-Raspber/
+
+Youtube: Edge Electronics
+
+https://pyimagesearch.com/2017/10/02/deep-learning-on-the-raspberry-pi-with-opencv/
+
+https://www.switchdoc.com/2018/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/
+
+https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/automation-pid-based-dc-motor-controller-using-the-raspberry-pi
+
+
+Once we are done training our model, we can discard the input data and keep only the
+weight matrix W and the bias vector b. This substantially reduces the size of our model
+since we need to store two sets of vectors (versus the entire training set).
+
+https://github.com/YahboomTechnology/Omniduino-Car - mecanum control || IMU 6050
+
+Project Fall back -> do away with image recognition and instead prioritize lane keeping, signal sign reading and obstacle aviodance -> streaming a video using the raspi camera while still processing it for classification on a raspi plainily without an accelerator is of way too much latency.
+
+ROS || Raspi Mecanum Control 
+
+Camera Pi -> 320p [480x320]
+PWM - control the duty cycle of the motors. L298 is connected to the MicroControllers PWM
+pins for speed control ans the H-bridge controls the direction of rotation
+
+Step down DC-DC converter modeule
+
+
+Code is stored in the SD card. 
+
+Note: Do not insert any wireless dongle when the Pi is switched on and running, it has a tendacy 
+to reboot the whole thing.
+
+https://www.youtube.com/watch?v=VY7m4lPIOj0 - Jetbot lane keeping

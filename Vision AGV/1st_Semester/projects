@@ -1,0 +1,39 @@
+Navigation_2: 
+Monocular Vision: A research paper that talks of Navigation
+Odometry: Wheel Sensors and IMU
+State Machines: Behaviour trees
+
+-------------------------------------------------------------------------
+
+Publishers: Unidirectional (speakers)
+
+Publisher ---> topic ---> Subscriber(s) //many subs listening to one
+ topic //when the message comes out of the publisher it gets broadcasted 
+ to various subscribers
+ 
+Subscriber: Unidirectional (listeners)
+
+Multiple pubs/nodes --> topic(s) ---> One sub/nodes
+
+You can only have one node per process//per program
+
+nh.Initnode(only_one_node) ---> cpp
+rospy.init_node(only_one_node) ---> python
+
+------------------------------------------------------------------------
+
+Nodelets: 
+
+Processes contain more than one 'node'
+Great for high-frequency or bandwidth applications: vision, control etc
+
+-------------------------------------------------------------------------
+Nodes exchange messages by Publishing & Subscribing to topics
+e.g have a sensor driver as a sensor node that publishes sensor data
+in a stream of messages.
+these streams of messages can be consumed by other nodes [subscibers].
+
+-------------------------------------------------------------------------
+
+RVIZ allows us to see sensor data from the robot and give it spin commands
+
